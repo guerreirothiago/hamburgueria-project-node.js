@@ -10,7 +10,7 @@
  - PATCH: Essa rota recebe o id nos parâmetros e assim que ela for chamada, altera o status do pedido recebido pelo id para "Pronto".
  
 ### Middleware
- - Criei um middleware que será utilizado nas rotas PUT, DELETE e PATCH, então ele verifica se o ID do pedido passado existe. Se caso ele não existir retorno com um erro, caso não a requisição continuar normalmente;
+ - Criei um middleware que será utilizado nas rotas PUT, DELETE e PATCH, então ele verifica se o ID do pedido passado existe. Se caso ele não existir retorno com um erro, e a requisição continua normalmente;
  
 ### Exemplos
  
